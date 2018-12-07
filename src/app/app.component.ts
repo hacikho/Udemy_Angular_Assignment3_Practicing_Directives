@@ -7,4 +7,11 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "CodeSandbox";
+  flag = true;
+  clickArray = [];
+
+  changeFlag() {
+    this.flag = !this.flag;
+    this.clickArray.push(this.clickArray.length + 1);
+  }
 }
