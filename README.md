@@ -1,2 +1,0 @@
-# Udemy_Angular_Assignment3_Practicing_Directives
-Created with CodeSandbox
